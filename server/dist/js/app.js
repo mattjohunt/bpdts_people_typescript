@@ -11,3 +11,4 @@ const PORT = process.env.PORT || 4000;
 app.use(cors_1.default());
 app.use(routes_1.default);
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+exports.default = app;
