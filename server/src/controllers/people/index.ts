@@ -15,7 +15,7 @@ const getPeople = async (req: Request, res: Response): Promise<void> => {
 
   result = result.concat(coordList, cityList);
 
-  res.status(200).json( result )
+    res.status(200).json( result )
 
 }
 
